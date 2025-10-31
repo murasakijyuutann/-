@@ -21,7 +21,6 @@ public class MemberRepository {
 		return member;
 	}
 	
-	
 	public List<MemberDTO> findAll(){
 		return list;
 	}

@@ -28,21 +28,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
 
-  mail:
-    host: smtp.sendgrid.net
-    port: 587
-    username: apikey
-    password: 
-    default-encoding: UTF-8
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-        transport:
-          protocol: smtp
-    from: "noreply@vocalocart.com"
+ 
 
 springdoc:
   api-docs:

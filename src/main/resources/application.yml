@@ -28,8 +28,6 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher
 
- 
-
 springdoc:
   api-docs:
     path: /api-docs

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>회원 가입</title>
+</head>
+<body>
+	<div id="content">
+		<form th:action="@{/members/signup}" method="post">
+			<p>
+				name: <input type="text" name="name">
+			</p>
+			<p>
+				email: <input type="text" name="email">
+			</p>
+            <p>
+				password: <input type="password" name="password">
+			</p>
+			<p>
+				<input type="submit" value="submit">
+			</p>
+		</form>
+	</div>
+</body>
+</html>
